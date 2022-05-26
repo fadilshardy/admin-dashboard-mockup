@@ -219,6 +219,11 @@ a {
    height: 100%;
  }
 
+ .main-container h3 {
+   margin-left: 2rem;
+   font-size: 1.5rem;
+ }
+
  main {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
@@ -263,7 +268,49 @@ a {
 .widgets {
   margin: 0 2rem 0 1rem;
 } 
- 
+
+.widgets h3 {
+  font-size: 1.5rem;
+}
+
+.announcements {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0;
+  border-bottom: 1px solid #b9bcc0;
+}
+
+.info-card:last-child {
+  border: none;
+}
+
+.info-card h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.info-card p {
+  max-width: 80%;
+  color: #7a7f88;
+  text-decoration: none;
+  font-size: 0.85em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+}
+
 
  
 
