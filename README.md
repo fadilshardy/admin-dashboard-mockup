@@ -27,5 +27,7 @@
 ## NOTES
 - I used flexbox instead of gridbox on some steps.
 - Not responsive (Would love to improve this later).
-- I used icons from [heroicons](https://heroicons.com/).
+- icons are from [heroicons](https://heroicons.com/).
+
+# [LIVEDEMO](https://fadilshardy.github.io/admin-dashboard-mockup/)
 
