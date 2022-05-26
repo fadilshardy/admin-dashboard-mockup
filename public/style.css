@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    
+}
+
+.item1 { grid-area: header; }
+
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'sidebar header header header header header'
+    'sidebar main main main main right'
+    'sidebar main main main main right'
+    'sidebar main main main main right';
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sidebar { 
+    grid-area: sidebar;
+    height: 100vh;
+    background-color: #1992D4;
+    color: white;
+ }
