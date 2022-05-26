@@ -183,14 +183,14 @@ a {
  }
 
  .dashboard-menu svg {
-   height: 3rem;
+   height:  clamp(5px, 4rem, 4rem);
  }
 
 
  
  .sidebar ul {
   text-transform: capitalize;
-  font-size: 1.4rem;
+  font-size: clamp(5px, 1rem, 1.4rem);
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -201,7 +201,7 @@ a {
  }
 
  .sidebar ul svg {
-   height: 1.5rem;
+   height: clamp(5px, 1.5rem, 1.5rem);
  }
 
  .sidebar li {
